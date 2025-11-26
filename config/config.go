@@ -10,8 +10,8 @@ import (
 type Config struct {
 	AppEnv string
 	Port string
-	DBURL string
-	JWTKey string
+	DatabaseURL string
+	JWTSecret string
 }
 
 func LoadConfig() *Config {

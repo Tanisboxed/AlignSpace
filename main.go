@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/gofibre/fiber/v2"
-	"github.com/tanisboxed/alignspace/config"
-	"github.com/tanisboxed/alignspace/router"
+	"github.com/gofiber/fiber/v2"
+	"alignspace/config"
+	"alignspace/router"
 )
 
 func main() {
